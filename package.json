@@ -4,7 +4,8 @@
   "description": "Calculates bonus and pay days for the current year",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,10 @@
   "dependencies": {
     "csv-writer": "^1.6.0",
     "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "jest": "^26.6.0"
   }
 }
