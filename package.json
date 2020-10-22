@@ -1,0 +1,16 @@
+{
+  "name": "salespay-cli",
+  "version": "1.0.0",
+  "description": "Calculates bonus and pay days for the current year",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "moment": "^2.29.1"
+  }
+}
