@@ -20,8 +20,14 @@ Your utility should calculate the payment dates for the next 12 months, includin
 current month, and output to the screen in a CSV format.
 
 ### Steps to run the script
+Clone the repo
 ```$ git clone https://github.com/asenchekov/coding-challenge-puntt.git```
 
+Install modules
 ```$ npm i```
 
+Run the script
 ```$ npm start```
+
+Test
+```$ npm test```
